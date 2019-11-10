@@ -1,0 +1,25 @@
+{
+  "name": "RealTimeChatAppusingScoketio",
+  "version": "1.0.0",
+  "description": "Real time chat app using Socket,io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chakrisatish84/RealTimeChatAppusingScoketio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chakrisatish84/RealTimeChatAppusingScoketio/issues"
+  },
+  "homepage": "https://github.com/chakrisatish84/RealTimeChatAppusingScoketio#readme",
+  "dependencies": {
+    "nodemon": "^1.19.4",
+    "socket.io": "^2.3.0"
+  }
+}

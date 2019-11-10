@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat APP</title>
+    <style>
+      .message-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      #sendContainer {
+        position: fixed;
+        bottom: 20px;
+      }
+      #message-input {
+        width: 400px;
+        height: 30px;
+      }
+      #send-button {
+        width: 100px;
+        height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message-container">
+      <form id="sendContainer" action="">
+        <input type="text" name="" id="message-input" />
+        <button id="send-button" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+</html>
